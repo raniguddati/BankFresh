@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this is the backend server of the app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Yegana Khalil",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.3",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.0.3",
+    "node-json-db": "^2.3.0",
+    "nodemon": "^3.0.2",
+    "react-hot-toast": "^2.4.1",
+    "speakeasy": "^2.0.0"
+  }
+}

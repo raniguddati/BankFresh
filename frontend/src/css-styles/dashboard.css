@@ -1,0 +1,29 @@
+/* dashboard.css */
+
+.dash-main-container {
+ display: flex;
+ flex-direction: row;
+}
+
+.sidebar-container {
+  width: 250px;
+}
+
+.topcontent-container {
+  margin:10px 20px;
+  position: absolute;
+  top: 0; /* Position it at the top */
+  right: 0; 
+}
+
+@media screen and (max-width: 768px){
+  .topcontent-container{
+    display: none;
+  }
+  .maincontent-container{
+    margin-left: -150px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

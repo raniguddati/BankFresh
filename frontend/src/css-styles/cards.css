@@ -1,0 +1,60 @@
+.cards{
+    margin-top: 80px;
+    padding: 12px 20px 24px 20px;
+    background: rgba(10, 144, 144, 0.107) ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.201);
+    cursor:pointer;
+}
+.card-container{
+    padding:20px; 
+    width: 300px;
+    height: 150px;
+    background: linear-gradient(
+        114.07deg,
+        rgba(10, 144, 144, 0.69) 3.49%,
+        rgba(255, 255, 255, 0) 34.7%
+      ),
+      linear-gradient(138.58deg, rgb(11, 173, 173) 43.56%,rgba(2, 67, 67, 0.816) );
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.201);
+}
+
+.title-container{
+    margin-top: 10px;
+}
+.card-number{
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 24px;
+}
+.card-exDate{
+    color: white;
+}
+.to-right-arrowBtn{
+    position: absolute;
+    border-radius: 100%;
+    color: white;
+    border: 1px solid rgba(10, 144, 144)  ;
+    background-color: rgb(10, 144, 144) ;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin-left: 330px;
+    margin-top: 85px; 
+        cursor:pointer;
+  
+}
+.card-type{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .title-container{
+}
+.cards{
+    padding-top: 30px;
+    width: 360px;
+}
+}

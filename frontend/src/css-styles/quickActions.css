@@ -1,0 +1,25 @@
+.qa-main-container {
+    display: flex; 
+    flex-direction: row; 
+    gap: 26px; 
+    margin-top: 12px;
+  }
+  
+  .top-up-container,
+  .pay-container,
+  .transfer-container {
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none; /* Remove border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    background-color: rgb(15, 159, 159);
+    font-size: 14px;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .icon-container {
+    margin-right: 8px;
+  }
+  

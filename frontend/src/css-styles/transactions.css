@@ -1,0 +1,58 @@
+.tran-container{
+    margin-top:80px;
+    width: 660px;
+    padding: 12px 20px 52px 20px;
+    background: rgba(10, 144, 144, 0.107) ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.201);
+    cursor:pointer;
+}
+.transactions {
+    color:white;
+    background-color:  rgba(10, 144, 144);
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.201);
+  
+  }
+.tran-details {
+    display: flex;
+    padding: 8px;
+    margin-left: 10px;
+  }
+  .tran-date{
+    font-size: 14px;
+    margin-top: 18px;
+    margin-left: 54px;
+  }
+  .tran-type{
+    margin-left: 14px;
+  }
+  .tran-card{
+    margin-left: 14px;
+  }
+  .tran-money{
+    margin-left: 54px;
+  }
+  .title{
+    margin-left: 15px;
+  }
+  .tran-info{
+    display: flex;
+    flex-direction: row;
+  }
+  @media screen and (max-width: 768px) {
+    .title-container{
+    display: none;
+}
+.tran-container{
+    width: 360px;
+}
+.tran-info{
+  display: flex;
+  flex-direction: column;
+}
+}
+
+
+  

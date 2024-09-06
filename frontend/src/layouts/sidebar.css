@@ -1,0 +1,123 @@
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background-color:rgb(10, 144, 144);
+    
+    transition: width 0.4s ease;
+    position: relative;
+  }
+  .user-info {
+    align-items: center;
+    justify-content: center;
+    padding: 20px;   
+  }
+  
+  .user-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: #fff; /* Set a background color or use an image */
+  }
+  
+  .user-name {
+    font-size: 16px;
+    color: var(--clr-white);
+    /* text-transform: uppercase; */
+    color: #fff;
+    margin-top: 70px;
+    /* margin-left: 10px;  */
+  }
+  
+  .navbar {
+    overflow-y: scroll;
+    padding: 10px;
+    height: 600px;
+  }
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 18px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--clr-pumpkin);
+    border-radius: 18px;
+  }
+
+  .navbar-list {
+    list-style: none;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    
+  }
+  .navbar-item {
+    margin-bottom: 15px;
+  }
+  
+
+  .navbar-link {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 16px;
+    align-items: center;
+    justify-content: flex;
+  }
+  .navbar-link-text{
+    margin-left: 12px;
+  }
+ 
+ 
+  .navbar-link:hover {
+    color: #393939;
+    transition: 0.5s;
+  }
+  
+  
+  /* Media queries for responsiveness */
+  
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      width: 72px; 
+      padding-top: 40px;
+      transition: width 0.4s ease;
+    }
+    .navbar {
+      height: 100vh; 
+    }
+    
+    .navbar-item {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .navbar-link {
+      padding: 16px;
+      text-decoration: none;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+    }
+    .nav-link:hover {
+        border-radius: 100%;
+      }
+    .user-name{
+      font-size: 15px;
+      display: none;
+    }
+    .user-img {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      }
+      .navbar-link-text  {
+        display: none;
+        margin-left: 12px;
+      }
+     
+  } 

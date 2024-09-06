@@ -1,0 +1,58 @@
+
+   
+   .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px; 
+    margin: auto;
+    margin-top: 100px; 
+    padding: 60px;
+    border: 1px solid #ccc; 
+    background: rgba(10, 144, 144, 0.168);  
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;  
+   }
+   
+   .input-container {
+   
+    margin-bottom: 20px;
+   }
+   
+   .input-container label {
+    margin-bottom: 5px;
+   }
+   
+   .input-container input {
+    margin-top: 30px;
+    width: 300px;
+    padding: 15px;
+    border: 2px solid rgba(10, 144, 144) ;
+    border-radius: 4px;
+   }
+   
+ 
+   .input-container button {
+    width: 440px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color:  rgba(10, 144, 144);
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+   }
+   .othertrans-select{  width: 300px; /* Set the width to 100% to make them take the full width of the parent container */
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid rgba(10, 144, 144) ;
+    background: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+   }
+   .input-container button:hover {
+     background-color: rgb(9, 111, 111);/* Darker green on hover */
+   }
